@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+      
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Metal+Mania&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Em busca da cidade perdida</title>
 </head>
 <body>
+    <Header> <p><h1>Estória</h1></p></Header>
     <main>
-          <div>
-             <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-          </div>
+        <div class="passo ativo" id="passo-0">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+            <img class = "Livro" src = "livrodeviagem.png"/>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+    </div>
+
+    <div class="passo" id="passo-1">
+        <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+
+        <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+ 
+        <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        <img class = "Rio" src = "rio-rio-de-janeiro-port-1.jpg.image_.750.563.low_.jpg"/>
+
+    </div>
+
+    <div class="passo" id="passo-3">
+        <p>Você escalou a montanha.</p>
+        <img class = "Pico" src = "pedradaGavea.jpeg"/>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <p>Você voltou pra casa.</p>
+        <img class = "Casa" src = "casa.jpg"/>
+    </div>
+
+    <div class="passo" id="passo-2">
+        <p>Bem vindo a Pernambuco.</p>
+        <img class = "Recife" src = "Recife.jpg"/>
+    </div>
+   
     </main>
         
         
-        
+    <script src="script.js"></script>      
         
 </body>
 </html>
