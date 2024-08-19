@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:rgb(89, 201, 4);
+    color:rgb(124, 13, 31);
+    font-family: "Metal Mania", system-ui;
+   
+  font-weight: 300;
+  font-style: normal;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 50px;
+  
+  }
+
+  
+  button {
+    background-color: #a7122b;
+    color: rgb(9, 241, 133);
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+.Rio{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.Recife{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.Pico{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
+.Casa{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
