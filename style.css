@@ -1,8 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    background:rgb(89, 201, 4);
-    color:rgb(124, 13, 31);
+    background-image: url("https://wallpapers.com/images/high/northern-lights-camping-desktop-uro45oewizsj6c56.webp");
+   <! background:rgb(89, 201, 4);
+    color:red;
     font-family: "Metal Mania", system-ui;
    
   font-weight: 300;
@@ -33,6 +34,7 @@ html, body {
     text-align: center;
     height: 400px;
     width: 400px;
+
 }
 
 .Recife{
